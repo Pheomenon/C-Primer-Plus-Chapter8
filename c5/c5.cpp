@@ -14,7 +14,7 @@ int main()
 }
 template <typename T>
 T max5(T a[5]) {
-	T max=0;
+	T max=a[0];
 	for (int i = 0; i < 4; i++) {
 		if (a[i] < a[i+1] && max < a[i+1])
 			max = a[i+1];
